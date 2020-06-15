@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4b106a41-c237-46c8-8e17-79d6f4392169" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pygame_plays/Feedbacks/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame_plays/Feedbacks/feedback_phase2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame_plays/Feedbacks/feedback_phase3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame_plays/Feedbacks/feedback_phase4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame_plays/Itens/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame_plays/Itens/bad_face.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame_plays/Itens/consonant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame_plays/Itens/good_face.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame_plays/Itens/vowel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame_plays/credits.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame_plays/instructions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame_plays/phases_introductions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/AI/game_background_1.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/AI/game_background_2.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/AI/game_background_3.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/AI/game_background_4.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/EPS/game_background_1.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/EPS/game_background_2.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/EPS/game_background_3.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/EPS/game_background_4.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/PNG/game_background_1/game_background_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/PNG/game_background_1/layers/cloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/PNG/game_background_1/layers/decor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/PNG/game_background_1/layers/land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/PNG/game_background_1/layers/sea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/PNG/game_background_1/layers/sky.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/PNG/game_background_2/game_background_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/PNG/game_background_2/layers/cloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/PNG/game_background_2/layers/decor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/PNG/game_background_2/layers/island.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/PNG/game_background_2/layers/land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/PNG/game_background_2/layers/sea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/PNG/game_background_2/layers/sky.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/PNG/game_background_3/game_background_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/PNG/game_background_3/layers/cloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/PNG/game_background_3/layers/decor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/PNG/game_background_3/layers/land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/PNG/game_background_3/layers/sea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/PNG/game_background_3/layers/sky.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/PNG/game_background_4/game_background_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/PNG/game_background_4/layers/cloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/PNG/game_background_4/layers/decor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/PNG/game_background_4/layers/land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/PNG/game_background_4/layers/sea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/PNG/game_background_4/layers/sky.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/PNG/game_background_4/layers/sun.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/TXT/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/Praia/TXT/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/background_choices/phase3_choice.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/backgrounds/background_choices/phase3_choice.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/map_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/monica.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/phase1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/backgrounds/phase1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/phase2.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/backgrounds/phase2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/phase2test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/phase3.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/backgrounds/phase3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/phase4.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/backgrounds/phase4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/step.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/zips/Flat Nature.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/zips/craftpix-00711-free-beach-2d-game-backgrounds.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/zips/craftpix-516661-free-cartoon-forest-game-backgrounds.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/zips/craftpix-633456-free-desert-scrolling-2d-game-backgrounds.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgrounds/zips/craftpix-671123-free-halloween-2d-game-backgrounds.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/characters/p1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/characters/p1_walk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/characters/p2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/characters/p3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/characters/p4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/foods/3ds___tomodachi_life___food_by_modelsandsprites_d8cumed-pre.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/foods/Monica.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/foods/food.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/foods/fruits.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/foods/spritesheet_fruits.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/foods/spritesheet_fruits.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/foods/spritesheet_letters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/foods/spritesheet_letters1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame_plays/character_choice.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygame_plays/character_choice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame_plays/feedback.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygame_plays/Feedbacks/feedback_phase1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame_plays/foods.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygame_plays/Itens/good_food.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame_plays/letters.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygame_plays/Itens/bad_food.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame_plays/levels.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygame_plays/levels.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame_plays/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygame_plays/menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame_plays/phase_choice.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygame_plays/phase_choice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame_plays/platform_scroller.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygame_plays/platform_scroller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame_plays/platforms.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygame_plays/platforms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame_plays/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygame_plays/player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame_plays/spritesheet_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygame_plays/spritesheet_functions.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>play</find>
+      <find>quit</find>
+      <find>start</find>
+      <find>map</find>
+      <find>running</find>
+      <find>p1</find>
+      <find>platform_scro</find>
+      <find>draw</find>
+      <find>run</find>
+      <find>menu</find>
+      <find>blit</find>
+      <find>level</find>
+      <find>plataf</find>
+      <find>keydown</find>
+      <find>Mixer</find>
+      <find>again</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/pygame/examples/playmus.py" />
+        <option value="$PROJECT_DIR$/tuto/01_window.py" />
+        <option value="$PROJECT_DIR$/gamelib/enemy.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/__init__.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/constants.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/itens.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/food.py" />
+        <option value="$PROJECT_DIR$/gamelib/menu.py" />
+        <option value="$PROJECT_DIR$/gamelib/maps.py" />
+        <option value="$PROJECT_DIR$/gamelib/player.py" />
+        <option value="$PROJECT_DIR$/phase_choice.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/feedback.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/credtis.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/foods.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/letters.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/spritesheet_functions.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/Itens/foods.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/Itens/letters.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/Itens/vogals.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/Itens/vogal.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/Itens/consonants.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/Conso.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/conso.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/consonant.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/Itens/vowel.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/Itens/consonant.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/platform_scroller.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/Itens/bad_food.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/Itens/good_food.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/Itens/bad_faces.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/Itens/good_faces.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/menu.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/phase_choice.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/character_choice.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/Feedbacks/feedback_phase2.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/Feedbacks/feedback_phase3.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/Feedbacks/feedback_phase1.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/Itens/bad_face.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/Itens/good_face.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/platforms.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/phases_introductions.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/instructions.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/credits.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/player.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/Feedbacks/feedback_phase4.py" />
+        <option value="$PROJECT_DIR$/pygame_plays/levels.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="504" />
+    <option name="y" value="339" />
+    <option name="width" value="1440" />
+    <option name="height" value="765" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="monica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="monica" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\eprrglh\Documents\Mackenzie(Materiais)\4ºSemestre\JogosDigitais\jogoMonica\Game\Game\monica\pygame_plays\Itens" />
+      <recent name="C:\Users\eprrglh\Documents\Mackenzie(Materiais)\4ºSemestre\JogosDigitais\jogoMonica\Game\Game\monica\images\characters\tests" />
+      <recent name="C:\Users\eprrglh\Documents\Mackenzie(Materiais)\4ºSemestre\JogosDigitais\jogoMonica\Game\Game\monica\pygame_plays\Feedbacks" />
+      <recent name="C:\Users\eprrglh\Documents\Mackenzie(Materiais)\4ºSemestre\JogosDigitais\jogoMonica\Game\Game\monica\pygame_plays" />
+      <recent name="C:\Users\eprrglh\Documents\Mackenzie(Materiais)\4ºSemestre\JogosDigitais\jogoMonica\monica\pygame_plays" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\eprrglh\Documents\Mackenzie(Materiais)\4ºSemestre\JogosDigitais\jogoMonica\monica" />
+      <recent name="C:\Users\eprrglh\Documents\Mackenzie(Materiais)\4ºSemestre\JogosDigitais\jogoMonica\monica\gamelib" />
+      <recent name="C:\Users\eprrglh\Documents\Mackenzie(Materiais)\4ºSemestre\JogosDigitais\jogoMonica\super-fruit-pie-master\gamelib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="good_food" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="super-fruit-pie-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pygame_plays/Itens" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pygame_plays/Itens/good_food.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python">
+      <module name="super-fruit-pie-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="menu" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="super-fruit-pie-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pygame_plays" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pygame_plays/menu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="player" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="super-fruit-pie-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pygame_plays" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pygame_plays/player.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="vowel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="super-fruit-pie-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pygame_plays/Itens" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pygame_plays/Itens/vowel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.menu" />
+        <item itemvalue="Python.player" />
+        <item itemvalue="Python.vowel" />
+        <item itemvalue="Python.good_food" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b106a41-c237-46c8-8e17-79d6f4392169" name="Default Changelist" comment="" />
+      <created>1570922382934</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570922382934</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.23510723" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32978722" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50119144" side_tool="true" weight="0.22340426" />
+      <window_info anchor="bottom" id="Python Console" order="2" weight="0.32978722" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32978722" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.4988086" visible="true" weight="0.22340426" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49960285" weight="0.39893618" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.32978722" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.23510723" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32978722" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50119144" side_tool="true" weight="0.22340426" />
+      <window_info anchor="bottom" id="Python Console" order="2" weight="0.32978722" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32978722" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.4988086" visible="true" weight="0.22340426" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49960285" weight="0.39893618" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.32978722" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pygame_plays/platform_scroller.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/pygame/sprite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="462" selection-start-line="462" selection-end-line="462" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gamelib/enemy.py" />
+    <entry file="file://$PROJECT_DIR$/gamelib/player.py" />
+    <entry file="file://$PROJECT_DIR$/gamelib/maps.py" />
+    <entry file="file://$PROJECT_DIR$/tuto/04_platform.py" />
+    <entry file="file://$PROJECT_DIR$/tuto/06_collect.py" />
+    <entry file="file://$PROJECT_DIR$/pygame_plays/index.php" />
+    <entry file="file://$PROJECT_DIR$/pygame_plays/watermelon.png" />
+    <entry file="file://$PROJECT_DIR$/images/lifes/watermelon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/backgrounds/phase1_choice.png" />
+    <entry file="file://$PROJECT_DIR$/images/feedbackFaces/perfect.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/feedbackFaces/happy.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/feedbackFaces/neutral.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/feedbackFaces/sad1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/feedbackFaces/sad.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-1830058348/pygame/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pygame_plays/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pygame_plays/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pygame_plays/credtis.py" />
+    <entry file="file://$PROJECT_DIR$/pygame_plays/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/foods/bad_food_new.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/foods/teste2_crop.png" />
+    <entry file="file://$PROJECT_DIR$/images/letters/vogals.png" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/pygame/examples/macosx/macfont.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="98" column="8" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pygame_plays/Itens/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pygame_plays/Itens/consonants.py" />
+    <entry file="file://$PROJECT_DIR$/pygame_plays/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pygame_plays/Itens/vowel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pygame_plays/platform_scroller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="97" column="33" lean-forward="true" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
+          <folding>
+            <element signature="e#1#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pygame_plays/Itens/good_food.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="26" column="74" lean-forward="true" selection-start-line="26" selection-start-column="74" selection-end-line="26" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/emotions/bad_faces.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pygame_plays/spritesheet_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#75#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pygame_plays/Itens/bad_food.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding>
+            <element signature="e#1#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pygame_plays/menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pygame_plays/Feedbacks/feedback_phase2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="309" column="26" selection-start-line="309" selection-start-column="26" selection-end-line="309" selection-end-column="26" />
+          <folding>
+            <element signature="e#1#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pygame_plays/Feedbacks/feedback_phase1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2249">
+          <caret line="230" column="26" selection-start-line="230" selection-start-column="26" selection-end-line="230" selection-end-column="26" />
+          <folding>
+            <element signature="e#1#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pygame_plays/phase_choice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-657">
+          <caret line="134" column="24" selection-start-line="134" selection-start-column="24" selection-end-line="134" selection-end-column="24" />
+          <folding>
+            <element signature="e#1#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pygame_plays/character_choice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
+          <folding>
+            <element signature="e#1#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pygame_plays/Itens/bad_face.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="e#1#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pygame_plays/Itens/good_face.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <element signature="e#1#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pygame_plays/platforms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+          <folding>
+            <element signature="e#39#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pygame_plays/instructions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="77" column="76" selection-start-line="77" selection-start-column="76" selection-end-line="77" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pygame_plays/credits.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="79" column="48" selection-start-line="79" selection-start-column="48" selection-end-line="79" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pygame_plays/Itens/consonant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pygame_plays/Feedbacks/feedback_phase3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="123" column="15" lean-forward="true" selection-start-line="123" selection-start-column="15" selection-end-line="123" selection-end-column="15" />
+          <folding>
+            <element signature="e#1#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pygame_plays/player.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pygame_plays/Feedbacks/feedback_phase4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="258" column="62" selection-start-line="258" selection-start-column="62" selection-end-line="258" selection-end-column="62" />
+          <folding>
+            <element signature="e#1#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pygame_plays/levels.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="669" column="40" selection-start-line="669" selection-start-column="40" selection-end-line="669" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pygame_plays/phases_introductions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6562">
+          <caret line="386" selection-start-line="386" selection-end-line="386" />
+          <folding>
+            <element signature="e#1#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
